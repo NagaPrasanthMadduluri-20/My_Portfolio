@@ -53,13 +53,13 @@ const About = () => {
           </div>
           <div className="relative rounded-3xl col-span-full md:col-span-1 overflow-hidden">
           <BorderBeam size={250} duration={12} delay={9} />
-            <div className="relative rounded-full">
+            <div className="relative rounded-[10000px]">
               <Image
                 src="/image2.jpeg"
                 alt="image"
                 width={300}
                 height={300}
-                className="w-full h-auto rounded-full p-10 hidden md:flex"
+                className="w-full h-auto rounded-[10000px] p-10 hidden md:flex"
               />
               <BorderBeam size={250} duration={12} delay={9} />
             </div>

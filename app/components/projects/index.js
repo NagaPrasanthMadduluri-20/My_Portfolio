@@ -1,8 +1,9 @@
 import Container from "  @/components/Container";
 import Text from "  @/components/Text";
 import Iphone15Pro from "  @/components/ui/iphone-15-pro";
-import { GitBranch, Github, Link } from "lucide-react";
+import { GitBranch, Github, Link2 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Projects = () => {
@@ -10,13 +11,13 @@ const Projects = () => {
     <div className="bg-[#0f0f0f]">
       <Container>
         <Text className="!text-[30px] italic mb-16 text-[#ff9800]">
-          hey! Here is Something I have Built{" "}
+          Hey! Here is Something I have Built{" "}
         </Text>
         <div className="group flex flex-col md:grid md:grid-cols-2 items-center relative mb-5">
         <Text className="!text-[16px] italic font-normal text-[#ff9800] mr-auto block md:hidden">
               Featured Project
             </Text>
-            <Text className="!text-[25px] italic mt-3 mr-auto block md:hidden">Portfolio Website</Text>
+            <Text className="!text-[25px] italic mr-auto block md:hidden">Portfolio Website</Text>
           <div className="opacity-65 group-hover:opacity-100 order-2 md:order-1">
             <Image
               src="/portfolio.jpg"
@@ -44,19 +45,19 @@ const Projects = () => {
               </Text>
             </div>
             <div className="items-center gap-x-6 mt-3 hidden md:flex">
-              <Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" />
+              <Link href="https://github.com/NagaPrasanthMadduluri-20/My_Portfolio"><Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" /></Link>
               <span className="hover:rotate-180 cursor-pointer">
                 {" "}
-                <Link />
+               <Link href="https://9d50fea7.myportfolio-46x.pages.dev/"> <Link2 /> </Link>
               </span>
             </div>
           </div>
         </div>
         <div className="flex md:hidden items-center gap-x-6 mt-3">
-              <Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" />
+        <Link href="https://github.com/NagaPrasanthMadduluri-20/My_Portfolio"><Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" /></Link>
               <span className="hover:rotate-180 cursor-pointer">
                 {" "}
-                <Link />
+                <Link2 />
               </span>
             </div>
 
@@ -65,7 +66,7 @@ const Projects = () => {
             <Text className="!text-[16px] italic font-normal text-left text-[#ff9800] block mr-auto">
               Featured Project
             </Text>
-            <Text className="!text-[25px] italic mt-3 block mr-auto">University Website</Text>
+            <Text className="!text-[25px] italic block mr-auto">University Website</Text>
             <div className="bg-[#0f0f0f] p-2 mr-10 rounded-lg mt-3">
             <Text className="text-[#9ca3af] md:relative md:opacity-100 md:line-clamp-none absolute bottom-0 left-0 opacity-0 group-hover:opacity-100 group-hover:slide-in-from-bottom-24 bg-[rgb(15,15,15)] tranisition-all line-clamp-5 text-[16px] font-medium duration-500 w-full">
                 CapstoneNav is a comprehensive university assignment submission
@@ -80,10 +81,10 @@ const Projects = () => {
               </Text>
             </div>
             <div className="items-center gap-x-6 mt-3 hidden md:flex">
-              <Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" />
+            <Link href="https://github.com/NagaPrasanthMadduluri-20/capstonenav"><Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" /></Link>
               <span className="hover:rotate-180 cursor-pointer">
                 {" "}
-                <Link />
+                <Link2 />
               </span>
             </div>
           </div>
@@ -98,10 +99,10 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex md:hidden items-center gap-x-6">
-              <Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" />
+        <Link href="https://github.com/NagaPrasanthMadduluri-20/capstonenav"><Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" /></Link>
               <span className="hover:rotate-180 cursor-pointer">
                 {" "}
-                <Link />
+                <Link2 />
               </span>
             </div>
 
@@ -109,8 +110,8 @@ const Projects = () => {
         <Text className="!text-[16px] italic font-normal text-[#ff9800] mr-auto block md:hidden">
               Featured Project
             </Text>
-            <Text className="!text-[25px] italic mt-3 mr-auto block md:hidden">University App</Text>
-          <div className="relative w-[600px] h-[400px] opacity-65 group-hover:opacity-100">
+            <Text className="!text-[25px] italic mr-auto block md:hidden">University App</Text>
+          <div className="relative h-[400px] opacity-65 group-hover:opacity-100">
             <Iphone15Pro className="size-full" src="/classtrackr.jpeg" />
           </div>
 
@@ -120,7 +121,7 @@ const Projects = () => {
             </Text>
             <Text className="!text-[25px] italic mt-3 hidden md:block">University App</Text>
             <div className="bg-[#0f0f0f] p-2 mr-10 rounded-lg mt-3">
-              <Text className="text-[#9ca3af] line-clamp-5 w-full">
+              <Text className="text-[#9ca3af] line-clamp-5 md:line-clamp-none w-full">
                 ClassTrackr is an innovative mobile application designed to
                 assess and optimize efficiency across university life by
                 tracking task completion and assignment progress. Utilizing
@@ -133,10 +134,10 @@ const Projects = () => {
               </Text>
             </div>
             <div className="flex items-center gap-x-6 mt-3">
-              <Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" />
+             <Link href="https://github.com/NagaPrasanthMadduluri-20/classtrackr"><Github className="hover:stroke-[#000]/10 hover:fill-[#fff] cursor-pointer" /></Link> 
               <span className="hover:rotate-180 cursor-pointer">
                 {" "}
-                <Link />
+                <Link2 />
               </span>
             </div>
           </div>

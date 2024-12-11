@@ -2,7 +2,6 @@ import Container from "  @/components/Container";
 import Text from "  @/components/Text";
 import { buttonVariants } from "  @/components/ui/button";
 import { Dock, DockIcon } from "  @/components/ui/dock";
-import { Separator } from "  @/components/ui/separator";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "  @/components/ui/tooltip";
 import { cn } from "  @/lib/utils";
 import { HomeIcon, MailIcon, PencilIcon } from "lucide-react";
@@ -50,12 +49,12 @@ const Footer = () => {
       social: {
         GitHub: {
           name: "GitHub",
-          url: "#",
+          url: "https://github.com/NagaPrasanthMadduluri-20",
           icon: Icons.github,
         },
         LinkedIn: {
           name: "LinkedIn",
-          url: "#",
+          url: "https://linkedin.com/in/madduluri-nagaprasanth-2336251a6",
           icon: Icons.linkedin,
         },
         X: {
@@ -65,7 +64,7 @@ const Footer = () => {
         },
         email: {
           name: "Send Email",
-          url: "#",
+          url: "maddulurinagaprasanth9391@gmail.com",
           icon: Icons.email,
         },
       },

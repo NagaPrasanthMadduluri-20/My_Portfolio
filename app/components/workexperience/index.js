@@ -8,7 +8,7 @@ import React from 'react'
 const WorkExperience = () => {
     const { theme } = useTheme();
   return (
-    <Container>
+    <Container className="py-0 md:py-10">
         <Text variant='h2' className="text-[25px] md:!text-[30px] italic my-10 text-center text-[#ff9800]">Here are a few technologies and libraries I've been working with recently</Text>
         <div className='flex items-center justify-between gap-5 mt-10 flex-wrap'>
          <MagicCard

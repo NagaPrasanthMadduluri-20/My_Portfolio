@@ -43,7 +43,7 @@ const HeroSection = () => {
           <div className="col-span-full md:col-span-1">
             <Text variant="h1">
               <GradualSpacing
-                className="text-[40px] md:!text-[50px]  italic text-[#ff9800] "
+                className="text-[35px] md:!text-[50px]  italic text-[#ff9800] "
                 text="M . Naga Prasanth"
               />
             </Text>
