@@ -1,7 +1,14 @@
-import { Inter } from "next/font/google";
+import { Barlow } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "  @/components/theme-provider";
+import Header from "./components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const barlow = Barlow({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-barlow",
+  weight: ["500", "600", "800", "900"],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -10,8 +17,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html className={`${barlow.variable}`} lang="en">
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+            <Header/>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
