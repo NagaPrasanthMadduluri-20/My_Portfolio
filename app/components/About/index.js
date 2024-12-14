@@ -17,37 +17,37 @@ const About = () => {
             <Text className="!text-[30px] italic mb-8 font-bold text-[#ff9800]">
               About me
             </Text>
-            <Image  src="/image2.jpeg"
+            <Image  src="/image4.jpeg"
                 alt="image"
                 width={100}
                 height={100}
                 className="rounded-full flex md:hidden"/>
             </div>
-            <Text className="italic mb-8 leading-6 z-30">
-              Hey there! I'm Naga Prasanth, a frontend developer passionate
+            <Text className="italic mb-8 leading-6 z-30  dark:text-[#9ca3af]">
+              Hey there! I'm Naga Prasanth, a <span className="text-[#6D4BA3] dark:text-white"> frontend developer </span>passionate
               about creating impactful web solutions across various domains,
               with a special focus on e-learning technologies.
-              <span className="mt-4 block">
+              <span className="mt-4 block  dark:text-[#9ca3af]">
                 As an early-career professional, I started my journey at
                 Invensis Technologies, My journey began with a fascination for
                 how technology can simplify complex learning experiences.
-                Through my journey, I discovered the magic of software
-                development - learning not just code, but the art of creating
+                Through my journey, I discovered the<span className="text-[#6D4BA3] dark:text-white"> magic of software
+                development - learning not just code,</span> but the art of creating
                 solutions that truly matter. My mentors taught me more than
                 programming; they showed me how great technology connects with
                 people.
               </span>
-              <span className="mt-4 block">
+              <span className="mt-4 block  dark:text-[#9ca3af]">
                 Today, I specialize in building intuitive web applications for
-                e-learning platforms. My sweet spot? Creating user interfaces
+                e-learning platforms.<span className="text-[#6D4BA3] dark:text-white"> My sweet spot? </span>Creating user interfaces
                 that make learning feel effortless and engaging. I believe the
                 best technology doesn't just work - it makes users' lives
                 easier. Whether it's designing a sleek learning management
                 system or optimizing user journeys,
               </span>
-              <span className="mt-4 block">
-                I'm all about turning complex ideas into simple, delightful
-                digital experiences.
+              <span className="mt-4 block  dark:text-text-[#9ca3af]">
+             I'm all about turning complex ideas into simple, delightful
+             <span className="dark:text-white text-[#6D4BA3]">    digital experiences.</span>
               </span>
             </Text>
           </div>
@@ -55,7 +55,7 @@ const About = () => {
           <BorderBeam size={250} duration={12} delay={9} />
             <div className="relative rounded-[10000px]">
               <Image
-                src="/image2.jpeg"
+                src="/image4.jpeg"
                 alt="image"
                 width={300}
                 height={300}
@@ -72,9 +72,9 @@ const About = () => {
 };
 
 export default About;
-<div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+{/* <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
   <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
     Border Beam
   </span>
   <BorderBeam size={250} duration={12} delay={9} />
-</div>;
+</div>; */}

@@ -20,7 +20,7 @@ const Projects = () => {
             <Text className="!text-[25px] italic mr-auto block md:hidden">Portfolio Website</Text>
           <div className="opacity-65 group-hover:opacity-100 order-2 md:order-1">
             <Image
-              src="/portfolio.jpg"
+              src="/og-image.jpg"
               alt=""
               width={600}
               height={600}
@@ -90,7 +90,7 @@ const Projects = () => {
           </div>
           <div className="opacity-65 group-hover:opacity-100">
             <Image
-              src="/Capstone.png"
+              src="/Capstone.webp"
               alt=""
               width={600}
               height={600}
