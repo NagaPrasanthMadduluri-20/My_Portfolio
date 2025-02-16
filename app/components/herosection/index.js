@@ -77,23 +77,23 @@ const HeroSection = () => {
                 />
               </span>
             </div>
-<Link href="/Resume.pdf" target="blank">
-            <RainbowButton
-              variant="outline"
-              className="w-auto text-[20px] md:text-[25px] h-11 mt-10 bg-[#9ca3af]"
-            >
-              {" "}
-              <FadeText
-                direction="up"
-                framerProps={{
-                  show: { transition: { delay: 0.8 } },
-                }}
-                text="Download Resume"
-              />{" "}
-            </RainbowButton>
+            <Link href="/Resume.pdf" target="blank">
+              <RainbowButton
+                variant="outline"
+                className="w-auto text-[20px] md:text-[25px] h-11 mt-10 bg-[#9ca3af]"
+              >
+                {" "}
+                <FadeText
+                  direction="up"
+                  framerProps={{
+                    show: { transition: { delay: 0.8 } },
+                  }}
+                  text="Download Resume"
+                />{" "}
+              </RainbowButton>
             </Link>
           </div>
-     
+
           <div className="hidden md:flex md:ml-9 md:col-span-1">
             <div className="">
               <IconCloud iconSlugs={slugs} />
